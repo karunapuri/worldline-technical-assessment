@@ -80,6 +80,6 @@ object Source2 extends App {
     }
   }
   handle.close()
-  println("No. of hands Player 1 wins is "+ans)
+  println("Number of hands that Player 1 wins:  "+ans)
   val displayedAnswer = null
 }

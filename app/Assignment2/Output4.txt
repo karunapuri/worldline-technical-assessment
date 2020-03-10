@@ -1,0 +1,16 @@
+# Output 4
+
+```
+/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=56225:/.../.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.26.jar Assignment2.SystemBuilder
+----------------------------------------------------------------
+Bill of Materials
+----------------------------------------------------------------
+Rectangle (10,10) width=30 height=40
+Square (15,30) size=35
+Ellipse (100,150) diameterH = 300 diameterV = 200
+Circle (1,1) size=300
+TextBox (5,5) width=200 height=100 text=sample text
+----------------------------------------------------------------
+
+Process finished with exit code 0
+```
