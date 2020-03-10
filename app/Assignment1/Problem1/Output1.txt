@@ -1,0 +1,9 @@
+# Output 1
+
+```
+/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=51511:/Applications/IntelliJ../.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.2.3.jar Assignment1.Problem1.Source
+
+No. of Sundays fell on the 1st of month during the 20th century is 171
+
+Process finished with exit code 0
+```
