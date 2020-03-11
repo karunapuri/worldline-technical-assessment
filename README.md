@@ -42,6 +42,10 @@ app
             System.scala
             Output4.txt
 test
-  Assignment2
-            WidgetBuilderTest.scala
+  Assignment2.unit
+            CircleWidgetBuilderTest.scala
+            EllipseWidgetBuilderTest.scala
+            RectangleWidgetBuilderTest.scala
+            SquareWidgetBuilderTest.scala
+            TextBoxWidgetBuilderTest.scala
 ```
