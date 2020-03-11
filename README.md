@@ -27,15 +27,21 @@
 app
   Assignment1 
         Problem1
-            Source1
+            Source1.scala
             Output1.txt
         Problem2
-            Source2
+            Source2.scala
             Output2.txt
         Problem3
-            Source3
+            Source3.scala
             Output3.txt
   Assignment2
-            Source4
+            models
+            helpers
+            SystemBuilder.scala
+            System.scala
             Output4.txt
+test
+  Assignment2
+            WidgetBuilderTest.scala
 ```

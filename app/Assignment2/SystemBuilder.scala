@@ -8,14 +8,13 @@ object SystemBuilder {
     println("Bill of Materials")
     println("----------------------------------------------------------------")
 
+    //Builder pattern using Abstract Class
     val rectangleWidgetBuild = new RectangleWidgetBuild().withPositionX(10).withPositionY(10).withWidth(30).withHeight(40)
     val rectangleWidget = rectangleWidgetBuild.build
     println("Rectangle " + rectangleWidget)
 
-    val squareWidgetBuild = new SquareWidgetBuild().withPositionX(15).withPositionY(30).withSize(35)
-    val squareWidget = squareWidgetBuild.build
-    println("Square " + squareWidget)
-
+    //Builder pattern using Scala case class
+    SquareWidgetBuild.defaultValuesBuild
     EllipseWidgetBuild.defaultValuesBuild
     CircleWidgetBuild.defaultValuesBuild
     TextBoxWidgetBuild.defaultValuesBuild
@@ -23,21 +22,3 @@ object SystemBuilder {
     println("----------------------------------------------------------------")
   }
 }
-
-//+++++Abort+++++”
-
-/*
-object System {
-  def main(args: Array[String]) = {
-    println("----------------------------------------------------------------")
-    println("Bill of Materials")
-    println("----------------------------------------------------------------")
-
-    def build(system: System) =
-      system match {
-        case EllipseWidget() => EllipseWidgetBuild.defaultValuesBuild
-        case  _ => ""
-      }
-    println("----------------------------------------------------------------")
-  }
-}*/
